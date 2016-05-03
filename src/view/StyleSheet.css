@@ -1,0 +1,30 @@
+.root{
+    -fx-background-color: linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #165710 40%, #EBFF4B 75%);
+    -fx-border-color: black, transparent; 
+}
+
+.button {
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: black;
+}
+
+.button:hover{
+	-fx-background-color:
+	   linear-gradient(#7AFEFF,#074377),
+	   radial-gradient(center 50% -40%, radius 200%, #E1DC3C 45%, #938F08 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: white;
+}
+
+.default-button{
+	-fx-border-color:#0B1EAB;
+	-fx-border-style: dashed;
+}
